@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body style="background-color: yellowgreen">
+    <div><a href="../index.html">index</a></div>
+    <ul>
+      <li>
+        <p>
+          <label>Прізвище Ім'я по Батькові <input type="text" /></label>
+        </p>
+      </li>
+      <li>
+        <p>
+          <label>Електронна пошта<input type="email" /></label>
+        </p>
+      </li>
+      <li>
+        <p>
+          <label>Вік <input type="number" min="18" max="100" /></label>
+        </p>
+      </li>
+      <li>
+        <p>
+          <label>Адреса <input type="text" /></label>
+        </p>
+      </li>
+      <li>
+        <p>
+          <label
+            >місце роботи (адреса організації, стаж роботи, дата початку
+            роботи)<input type="text"
+          /></label>
+        </p>
+      </li>
+      <li>
+        <p>
+          <label
+            >Як оцінюєте роботу президента<input
+              type="number"
+              min="1"
+              max="10"
+              value="7"
+          /></label>
+        </p>
+      </li>
+      <li>
+        <p>
+          <label
+            >Коментар стосовно останніх виборів
+            <textarea name="president" cols="10" rows="2"></textarea>
+          </label>
+        </p>
+      </li>
+      <li>
+        <p>
+          <label>Найкращий місяць для відпустки<input type="month" /></label>
+        </p>
+      </li>
+      <li>
+        <legend>Найкраща кава на ваш вибір</legend>
+        <label><input type="radio" name="coffee" />Еспресо</label>
+        <label><input type="radio" name="coffee" />Лате</label>
+        <label><input type="radio" name="coffee" />Американо</label>
+      </li>
+
+      <li>
+        <legend>Найкраще місце відпочинку</legend>
+        <label><input type="checkbox" name="chill" />Балі</label>
+        <label><input type="checkbox" name="chill" />Дубай</label>
+        <label><input type="checkbox" name="chill" />Париж</label>
+      </li>
+      <li>
+        <legend>Автомобілі</legend>
+        <select name="car">
+          <option value="car">Audi</option>
+          <option value="car">BMW</option>
+          <option value="car">Pagani</option>
+        </select>
+      </li>
+      <li>
+        <legend>Овочі</legend>
+        <select>
+          <optgroup label="Смачні">
+            <option>Огірок</option>
+            <option>Капуста</option>
+            <option>Картопля</option>
+          </optgroup>
+          <optgroup label="Несмачні">
+            <option>Буряк</option>
+            <option>Щавель</option>
+            <option>Цибуля</option>
+          </optgroup>
+        </select>
+      </li>
+    </ul>
+  </body>
+</html>
